@@ -14,6 +14,8 @@ import java.sql.Connection;
 public class Main {
     public static void main(String[] args) {
         
+        System.out.println("hola mundo");
+        
         Conecion conexion = new Conecion();
         
         try(Connection cnx = conexion.get_connection() ){
